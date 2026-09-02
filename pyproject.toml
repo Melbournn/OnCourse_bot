@@ -36,6 +36,7 @@ testpaths = ["tests"]
 [tool.ruff]
 line-length = 100
 target-version = "py312"
+extend-exclude = ["IMPLEMENTATION.md"]
 
 [project.scripts]
 "on-course-bot" = "app.cli:app"
